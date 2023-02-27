@@ -1,0 +1,21 @@
+.recommended {
+    padding: 40px 90px !important;
+    h2 {
+        color: #a8aebf;
+        font-size: 32px;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+    .rec {
+        width: 90% !important;
+        img {
+            height: 500px !important;
+        }
+    }
+}
+@media only screen and (max-width: 877px) {
+    .recommended {
+        padding: 20px !important;
+    }
+}

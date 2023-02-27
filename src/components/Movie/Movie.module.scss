@@ -1,0 +1,54 @@
+.movieCard {
+    margin: 20px 10px 0px 10px;
+    background: rgba(32, 40, 62, 0.8);
+    backdrop-filter: blur(80px);
+    border-radius: 12px;
+    transition: 0.4s;
+    padding: 8px;
+    position: relative;
+    &:hover {
+        box-shadow: 0 5px 15px 5px hsl(0deg 0% 100% / 17%);
+    }
+    img {
+        width: 100%;
+        border-radius: 12px;
+    }
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 20px;
+        padding: 0px 25px 0px 10px;
+        p {
+            backdrop-filter: blur(8px);
+            background: rgba(0, 0, 0, 0.65);
+            border-radius: 8px;
+            color: #ffad49;
+            padding: 4px 8px;
+            cursor: pointer;
+        }
+    }
+
+    .end {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 5px;
+        .title {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #ebeef5;
+            margin: 0 !important;
+        }
+        .addWatch {
+            color: #ffad49;
+            font-size: 18px;
+            margin: 0 !important;
+            cursor: pointer;
+        }
+    }
+}

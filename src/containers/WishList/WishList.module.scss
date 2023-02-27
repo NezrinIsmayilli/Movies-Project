@@ -1,0 +1,21 @@
+.movies {
+    padding: 40px 90px !important;
+    h1 {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 80px;
+        letter-spacing: -0.02em;
+        color: #ebeef5;
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 877px) {
+    .movies {
+        padding: 20px !important;
+    }
+}
+@media only screen and (max-width: 645px) {
+    h1 {
+        margin-top: 200px !important;
+    }
+}
